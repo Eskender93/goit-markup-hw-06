@@ -11,12 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/tablet.css">
+  <link rel="stylesheet" href="./css/deskop.css">
 </head>
 <!-- HEADER -->
-<header class="header header-portfolio">
+<header class="header">
   <div class="header-container container">
     <nav class="header-nav">
       <a class="header-logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
@@ -32,6 +32,9 @@
         </li>
       </ul>
     </nav>
+    <button class="mobile-menu-button" data-menu-open><svg class="mobile-menu-open-icon" width="52" height="42">
+        <use href="./images/sprite.svg#icon-burder-menu"></use>
+      </svg></button>
     <address class="header-adress">
       <ul class="adress-list list">
         <li class="adress-item">
@@ -43,7 +46,54 @@
       </ul>
     </address>
   </div>
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button class="mobile-menu-close" data-menu-close>
+        <svg class="mobile-menu-close-icon" width="8" height="8">
+          <use href="./images/sprite.svg#icon-modal-btn-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-item"><a href="./index.html" class="mobile-menu-link link">Studio</a></li>
+        <li class="mobile-menu-item"><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li>
+        <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Contacts</a></li>
+      </ul>
+      <address>
+        <ul class="mobile-adress-list list">
+          <li class="mobile-adress-item">
+            <a class="mobile-contact-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+          <li class="mobile-adress-item">
+            <a class="mobile-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-menu-soc-list list">
+        <li class="mobile-menu-soc-item">
+          <a href="" class="mobile-menu-soc-link"><svg class="mobile-menu-soc-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-instagram"></use>
+            </svg></a>
+        </li>
+        <li class="mobile-menu-soc-item">
+          <a href="" class="mobile-menu-soc-link"><svg class="mobile-menu-soc-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-twitter"></use>
+            </svg></a>
+        </li>
+        <li class="mobile-menu-soc-item">
+          <a href="" class="mobile-menu-soc-link"><svg class="mobile-menu-soc-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg></a>
+        </li>
+        <li class="mobile-menu-soc-item">
+          <a href="" class="mobile-menu-soc-link"><svg class="mobile-menu-soc-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-linkedin"></use>
+            </svg></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </header>
+
 
 <body>
   <main>
@@ -209,37 +259,39 @@
   </main>
   <footer class="footer">
     <div class="footer-container container">
-      <div class="footer-logo-wrap">
-        <a class="footer-logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-      <div class="footer-wrap">
-        <h3 class="footer-title">Social media</h3>
-        <ul class="footer-soc-list list">
-          <li class="footer-soc-item">
-            <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
-                <use href="./images/sprite.svg#icon-instagram"></use>
-              </svg></a>
-          </li>
-          <li class="footer-soc-item">
-            <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
-                <use href="./images/sprite.svg#icon-twitter"></use>
-              </svg></a>
-          </li>
-          <li class="footer-soc-item">
-            <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
-                <use href="./images/sprite.svg#icon-facebook"></use>
-              </svg></a>
-          </li>
-          <li class="footer-soc-item">
-            <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
-                <use href="./images/sprite.svg#icon-linkedin"></use>
-              </svg></a>
-          </li>
-        </ul>
+      <div class="tablet-footer">
+        <div class="footer-logo-wrap">
+          <a class="footer-logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-wrap">
+          <h3 class="footer-title">Social media</h3>
+          <ul class="footer-soc-list list">
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg></a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg></a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link"><svg class="footer-soc-icon" wigth="24" height="24">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="suscribe-wrap">
         <form class="suscribe-form">
@@ -259,6 +311,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js//mobile-menu.js"></script>
 </body>
 
 </html>
