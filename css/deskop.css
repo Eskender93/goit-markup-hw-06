@@ -97,19 +97,24 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-    .footer-container {
-        display: flex;
-}
-
-.footer-logo-wrap{
+  .footer-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-logo-wrap {
     margin-right: 120px;
-}
-.footer-wrap{
-    margin-right: 80px;
-}
-.suscribe-form-input{
-    min-width: 267px;
-    margin-right: 24%;
-    margin-left: 0;
-}
+  }
+
+  .footer-wrap {
+    margin-right: 120px;
+  }
+  .suscribe-form-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+
+  .suscribe-form-btn {
+    max-width: 165px;
+  }
 }

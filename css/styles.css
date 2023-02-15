@@ -506,8 +506,10 @@ address {
   min-width: 170px;
   height: 51px;
   background: #4d5ae5;
+  border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
   transition: background-color var(--transition-dur-and-func);
 }
 .hero-btn:hover,
@@ -818,6 +820,12 @@ address {
   padding-left: 24px;
   padding-bottom: 8px;
   padding-top: 8px;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.suscribe-form-btn:focus,
+.suscribe-form-btn:hover {
+  background-color: #404bbf;
 }
 
 .suscribe-form-icon {
@@ -981,12 +989,19 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: box-shadow var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func);
+
 }
 
 .modal-close-btn:is(:focus, :hover) {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: #404bbf;
+}
+.modal-close-icon{
+  transition: fill var(--transition-dur-and-func);
+}
+
+.modal-close-btn:is(:focus, :hover) .modal-close-icon {
+  fill: #ffffff;
 }
 .contact-form {
   width: 100%;
