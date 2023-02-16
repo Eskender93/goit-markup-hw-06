@@ -30,7 +30,7 @@
   }
   .header-logo {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 22px;
   }
   .header-list {
     display: flex;
@@ -55,7 +55,7 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 22px;
     transition: color var(--transition-dur-and-func);
   }
   .header-link:focus,
@@ -65,11 +65,11 @@
 
   .contact-email {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: calc(16 / 12);
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 24px;
+    padding-bottom: 4px;
     transition: color var(--transition-dur-and-func);
   }
 
@@ -80,11 +80,12 @@
 
   .contact-phone {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    padding-bottom: 10px;
     color: #434455;
-    padding-bottom: 24px;
+    padding-bottom: 4px;
+    transition: color var(--transition-dur-and-func);
   }
 
   .current {
@@ -123,6 +124,10 @@
 
   /* Strenth */
 
+  .strenth {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .strenth-list {
     display: flex;
     justify-content: center;
@@ -133,6 +138,14 @@
 
   .strenth-item {
     max-width: 351px;
+  }
+
+  .strenth-subtitle {
+    text-align: left;
+  }
+
+  .strenth-text {
+    margin-bottom: 0;
   }
 
   /* TEAM */
@@ -146,6 +159,10 @@
   }
 
   /* Customers */
+
+  .customers-tablet-container {
+    width: 552px;
+  }
 
   .customer-item {
     width: calc((100% - 48px) / 3);
@@ -181,12 +198,14 @@
   /* Footer */
   .tablet-footer {
     display: flex;
+    margin-left: 108px;
   }
   .suscribe-input-btn-wrap {
     display: flex;
   }
 
   .suscribe-form-input {
+    width: 264px;
     margin-right: 24px;
   }
   .suscribe-form-title {
@@ -208,6 +227,7 @@
   }
   .suscribe-form {
     text-align: left;
+    margin-left: 108px;
   }
   .suscribe-form-btn {
     margin-left: 0;

@@ -9,6 +9,20 @@
     gap: 40px;
   }
 
+  .adress-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .contact-email {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
+
+  .contact-phone {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
   /* HERO */
   .hero-title {
     margin-bottom: 48px;
@@ -73,6 +87,9 @@
   }
 
   /* Customers */
+  .customers-tablet-container {
+    width: 100%;
+  }
 
   .customers {
     padding-top: 120px;
@@ -109,6 +126,12 @@
   .footer-wrap {
     margin-right: 120px;
   }
+  .footer-text {
+    margin-bottom: 0;
+  }
+  .suscribe-form {
+    margin-left: 0;
+  }
   .suscribe-form-input {
     width: 264px;
     margin-right: 24px;
@@ -116,5 +139,9 @@
 
   .suscribe-form-btn {
     max-width: 165px;
+  }
+
+  .tablet-footer {
+    margin-left: 0;
   }
 }

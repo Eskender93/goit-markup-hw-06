@@ -110,8 +110,8 @@ address {
   justify-content: space-between;
 }
 .header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mobile-menu-button {
@@ -138,7 +138,7 @@ address {
 .hero-title {
   font-weight: 600;
   font-size: 25px;
-  line-height: calc(40px / 30px);
+  line-height: calc(40 / 30);
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -200,7 +200,7 @@ address {
 .strenth-subtitle {
   font-weight: 600;
   font-size: 36px;
-  line-height: calc(40px / 36px);
+  line-height: calc(40 / 36);
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   margin-bottom: 8px;
@@ -243,7 +243,7 @@ address {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
   justify-content: center;
   margin: auto;
 }
@@ -395,7 +395,7 @@ address {
 .footer-title {
   font-weight: 600;
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
@@ -577,7 +577,6 @@ address {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   position: relative;
   transition: box-shadow var(--transition-dur-and-func);
-  /* width: calc((100% - 48px) / 3); */
 }
 
 .portfolio-item:hover {
@@ -587,7 +586,7 @@ address {
 
 .portfolio-subtitle {
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #434455;
   flex: none;
@@ -665,7 +664,7 @@ address {
 .title-form {
   font-weight: 600;
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
@@ -694,7 +693,7 @@ address {
   height: 120px;
   resize: none;
   font-size: 12px;
-  line-height: calc(14px / 12px);
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -725,7 +724,7 @@ address {
   border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
-  line-height: calc(19px / 16px);
+  line-height: calc(19 / 16);
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-top: 24px;
@@ -739,14 +738,14 @@ address {
 .contact-form-title {
   width: 100%;
   font-size: 12px;
-  line-height: calc(14px / 12px);
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: #8e8f99;
 }
 
 .terms-and-conditions {
   font-size: 12px;
-  line-height: calc(16px / 12px);
+  line-height: calc(16 / 12);
   letter-spacing: 0.04em;
   color: #757575;
   border-radius: 2px;
@@ -756,7 +755,7 @@ address {
 
 .privacy-policy {
   font-size: 12px;
-  line-height: calc(16px / 12px);
+  line-height: calc(16 / 12);
   letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration: underline;
