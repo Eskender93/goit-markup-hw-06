@@ -210,6 +210,8 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.strenth-item:not(:last-child) {
   margin-bottom: 72px;
 }
 .strenth-link {
