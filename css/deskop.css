@@ -126,6 +126,9 @@
   .footer-wrap {
     margin-right: 120px;
   }
+  .footer-soc-list{
+    margin-bottom: 0;
+  }
   .footer-text {
     margin-bottom: 0;
   }
@@ -135,6 +138,7 @@
   .suscribe-form-input {
     width: 264px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 
   .suscribe-form-btn {
